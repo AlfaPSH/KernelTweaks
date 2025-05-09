@@ -1,14 +1,13 @@
 #!/system/bin/sh
-# AiFrost Ingal Kernel Optimization for Redmi 10C (Specialized for MistOS)
 # Author: AlfaPSH
 
-LOGFILE="/data/local/tmp/aifrost_optimization.log"
+LOGFILE="/data/local/tmp/AlfaTweaks.log"
 KERNEL_MODULES="/data/kernel/modules/"
 # -- FUNCTIONS --
 
 log_start() {
     rm -f "$LOGFILE" 2>/dev/null
-    echo "=== Starting AiFrost Xeon Optimization for MistOS ===" > "$LOGFILE"
+    echo "=== Starting Kernel tunning for full functionality ===" > "$LOGFILE"
     date >> "$LOGFILE"
 }
 

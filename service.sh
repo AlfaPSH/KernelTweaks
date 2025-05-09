@@ -1,8 +1,8 @@
 #!/system/bin/sh
-# AiFrost Xeon Kernel Optimization for Redmi 10C (Specialized for MistOS)
+# Swapfile mounting
 # Author: AlfaPSH
 
-LOGFILE="/data/local/tmp/aifrost_swapfile_mount.log"
+LOGFILE="/data/local/tmp/AlfaTweaks-Swap-Mount.log"
 SWAPFILE="/data/swapfile"
 rm -rf $LOGFILE
 log_start() {
